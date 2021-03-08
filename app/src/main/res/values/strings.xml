@@ -1,0 +1,9 @@
+<resources>
+    <string name="app_name">wulpass</string>
+    <string name="wul_pass">WUL\n PASS</string>
+    <string name="password_qu">인증에 입력할 비밀번호를 입력해주세요</string>
+    <string name="password_hint">input number</string>
+    <string name="fragment_contract">Contract</string>
+    <string name="fragment_id">Profile</string>
+    <string name="fragment_wallet">Wallet</string>
+</resources>

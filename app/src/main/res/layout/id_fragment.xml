@@ -1,0 +1,77 @@
+<?xml version="1.0" encoding="utf-8"?>
+<layout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    >
+
+    <FrameLayout
+        android:layout_height="match_parent"
+        android:layout_width="match_parent"
+        tools:context=".ui.id.IDFragment"
+        android:id="@+id/id_frame"
+        >
+        <ImageView
+                android:layout_marginTop="50dp"
+                android:layout_marginStart="40dp"
+                android:layout_width="200dp"
+                android:layout_height="100dp"
+                android:layout_gravity="start|top"
+                android:src="@drawable/id_infom"
+            />
+        <LinearLayout
+                android:layout_marginTop="160dp"
+                android:layout_marginBottom="60dp"
+                android:layout_marginStart="40dp"
+                android:layout_marginEnd="40dp"
+                android:layout_width="match_parent"
+                android:layout_height="200dp"
+                android:background="@drawable/btn_card"
+                android:orientation="vertical"
+            >
+            <ImageView
+                android:layout_width="100dp"
+                android:layout_height="50dp"
+                android:src="@drawable/logo"
+                android:layout_gravity="end|top"
+                />
+            <TextView
+                    android:id="@+id/text_id"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content" />
+
+            <TextView
+                    android:id="@+id/text_created"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                />
+
+            <androidx.appcompat.widget.AppCompatTextView
+                    android:id="@+id/text_public"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content" />
+
+        </LinearLayout>
+
+        <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:gravity="bottom|center"
+                android:layout_marginBottom="160dp"
+                android:orientation="horizontal"
+                android:padding="16dp"
+                >
+
+            <Button
+                    android:id="@+id/btn_qr"
+                    android:layout_width="100dp"
+                    android:layout_height="100dp"
+                    android:background="@drawable/verify_qr" />
+
+            <Button
+                    android:id="@+id/btn_online"
+                    android:layout_width="100dp"
+                    android:layout_height="100dp"
+                    android:background="@drawable/verify_online" />
+        </LinearLayout>
+    </FrameLayout>
+</layout>
